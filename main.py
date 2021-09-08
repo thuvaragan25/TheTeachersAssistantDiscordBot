@@ -26,10 +26,12 @@ async def on_ready():
 async def on_message(message):
   global tts
   if message.author == bot.user:
-    return
+    return  
   for word in message.content.lower().split(' ')[:]:
     if word in badwords:
       await message.delete()
+      embed = discord.Embed(title = "Hey there! Tabby Has A Message For you.", description = "We have noticed the content in your message is not allowed where Tabby resides. Sorry no images and foul language is allowed in this part of the server, if there is a problem please let the server administrators know.", color = discord.Colour.red())
+      await message.author.send(embed=embed)
   
   if message.content.startswith('.stress'):
     embed = discord.Embed(title = "Breathe in...and breathe out...", description = "", color = discord.Colour.green())

@@ -9,6 +9,9 @@ Using the `.commands` command on the bot, can allow the user to see in detail wh
 ## How the bot was built
 The Python programming language and the [discord.py](https://discordpy.readthedocs.io/en/stable/api.html) module was used to build this bot. Some of the commands were built using the help of these APIs: https://newsapi.org/, https://api.adviceslip.com/advice, https://dictionaryapi.dev/. To sensor inappropriate words, the dataset was obtained from: https://www.freewebheaders.com/full-list-of-bad-words-banned-by-google/. Music for the discord bot is No Copyright music. The lofi music is from the producer Lofi Geek, taken from [here](https://www.youtube.com/watch?v=4Ta1a5VAYLg). The classical music was taken from [here](https://www.youtube.com/watch?v=bvlNy_GxVe0&t). 
 
+## Demo
+Check out the demonstration and see Tabby in action [here](https://youtu.be/MpBPUOQRiP0).
+
 ## Try it out
 If you'd like to add this bot to your server, visit: [here](https://discord.com/api/oauth2/authorize?client_id=867085688638144522&permissions=8&scope=bot). Follow the instructions, and the bot should successfully be added to your server. 
 
